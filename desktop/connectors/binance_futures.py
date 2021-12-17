@@ -29,7 +29,7 @@ class BinanceFuturesClient:
             self._wss_url = "wss://stream.binancefuture.com/ws"
         else:
             self._base_url = "https://fapi.binance.com"
-            self._ = "wss://fstream.binance.com/ws"
+            self._wss_url = "wss://fstream.binance.com/ws"
 
         self._public_key = public_key
         self._secret_key = secret_key
